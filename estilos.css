@@ -3,6 +3,7 @@
 
 }
 .card{
+    margin: 10px;
     background-color: rgb(215, 193, 255);
     border: solid 1px black;
     border-radius: 10px;
