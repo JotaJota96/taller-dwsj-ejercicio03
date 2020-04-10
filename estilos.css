@@ -1,22 +1,39 @@
 @charset "utf-8";
 *{
-    
+
 }
 .card{
-
+    background-color: rgb(215, 193, 255);
+    border: solid 1px black;
+    border-radius: 10px;
+    box-shadow: 5px 8px 10px rgba(0, 0, 0, 0.7);
 }
 .card-section{
-    
+    padding: 20px;
 }
 .card-header{
-    
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
 }
 .card-body{
-
+    text-align: justify;
+    border-top: dotted 1px rgba(0, 0, 0, 0.3);
+    border-bottom: dotted 1px rgba(0, 0, 0, 0.3);
+    );
 }
 .card-footer{
-
+    text-align: right;
 }
 .button{
-
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 10px;
+    border-radius: 5px;
+    border: solid 1px rgba(0, 0, 0, 0.7);
+    background-image: radial-gradient(rgb(210, 186, 255), rgb(172, 132, 248));
+}
+.button:hover{
+    background-image: radial-gradient(rgb(191, 159, 252), rgb(160, 110, 253));
 }
